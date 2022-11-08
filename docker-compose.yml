@@ -1,7 +1,7 @@
 version: '3.2'
 services:
   task:
-    image: webelight:webelight
+    image: registry.gitlab.com/pipeline85/pipeline:2
     ports:
      - "8050:3000"
     restart: always
